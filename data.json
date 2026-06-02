@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/sunporno-downloader",
+  "serply_link": "https://serp.ly/sunporno-downloader",
+  "app_name": "Sunporno Video Downloader",
+  "short_description": "Download & Save Sunporno Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "Sunporno Downloader is a browser extension that helps you save available video media from supported Sunporno video pages. Instead of copying links into external downloader sites, this tool works directly from the tab where the video is already playing. It scans the page for playable media signals and presents the available options for local saving.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/sunporno-downloader-fullscreen-01-f6d2d7498e.webp",
+    "https://apps.serp.co/media/optimized-products/sunporno-downloader-fullscreen-02-c095225d95.webp",
+    "https://apps.serp.co/media/optimized-products/sunporno-downloader-fullscreen-03-dcaac511bd.webp",
+    "https://apps.serp.co/media/optimized-products/sunporno-downloader-fullscreen-04-eea601afb0.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Is Sunporno Downloader available now?",
+      "answer": "Yes. The extension has been released and you can download it from the GitHub Releases page. Installation instructions are provided above."
+    },
+    {
+      "question": "How do I download a Sunporno video?",
+      "answer": "Open a Sunporno video page, let the player load, then use the extension controls to detect and save available media options."
+    },
+    {
+      "question": "Will every Sunporno video work?",
+      "answer": "The extension detects media based on what each page exposes to the browser. Availability depends on the specific video and how it is served by the site."
+    },
+    {
+      "question": "What formats are supported?",
+      "answer": "The extension detects progressive MP4 and HLS/M3U8 streams when Sunporno serves them. Output files are saved as MP4."
+    },
+    {
+      "question": "Can I choose video quality?",
+      "answer": "Quality selection is available when the page exposes multiple resolution options. Available choices depend on the specific video."
+    },
+    {
+      "question": "Does it require a Sunporno account?",
+      "answer": "No account is needed for freely accessible content on Sunporno."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "Archive videos you have permission to save for later access without an internet connection"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Detects available MP4 and HLS video streams from supported Sunporno pages",
+    "Works directly from the video page already open in your browser",
+    "Presents quality options when multiple resolutions are available",
+    "Saves files through the standard browser download workflow",
+    "Keeps your Sunporno URLs private by avoiding third-party downloader sites",
+    "Purpose-built URL matching for sunporno.com and its subdomains",
+    "Scans the active video page for available media signals",
+    "Detects progressive MP4 and HLS/M3U8 stream candidates",
+    "Quality selection when the page exposes multiple resolutions",
+    "Browser-native download workflow for local file saving",
+    "Organized save folder for downloaded videos",
+    "Lightweight extension that works alongside normal browsing",
+    "Regular updates through GitHub Releases"
+  ],
+  "content": {
+    "why": [
+      "Sunporno video pages do not always show a simple save-video link. Right-clicking might capture a preview image, poster, or page asset instead of the real stream. External downloader sites add privacy risk and can misread ad or thumbnail resources as video content.",
+      "Sunporno Downloader keeps the workflow inside the active Sunporno tab. Load the video, let the player reveal available media, then use the extension controls to check for MP4 or HLS-style options. The extension scans the page for media signals after the player has loaded, so it can find stream URLs that appear only during playback. When the page exposes downloadable media, the extension presents the available options and saves through the browser download flow."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Sunporno and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Install the Sunporno Downloader extension from the latest GitHub release.",
+      "Open your browser and navigate to a Sunporno video page you want to save.",
+      "Let the video player load and start playback if needed.",
+      "Click the Sunporno Downloader icon in your browser toolbar.",
+      "The extension will scan the page for available media options.",
+      "Review the detected streams and qualities in the popup window.",
+      "Select your preferred quality option from the list.",
+      "Click the download button and wait for the file to save to your computer."
+    ],
+    "supported_formats": [
+      "Input: Progressive MP4 streams and HLS/M3U8 playlists when Sunporno exposes them to the browser",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "Sunporno viewers who want personal offline access to videos they are allowed to save",
+      "Users who prefer keeping their browsing activity within the browser instead of using external downloader sites",
+      "People who want quality control over the videos they save",
+      "Anyone looking for a browser-native approach to saving available Sunporno video media"
+    ],
+    "use_cases": [
+      "Save a Sunporno video for personal offline viewing",
+      "Check whether the active page exposes direct MP4 or HLS media",
+      "Avoid sending Sunporno URLs to third-party paste-box downloader sites",
+      "Pick a practical resolution when multiple qualities are available",
+      "Archive videos you have permission to save for later access without an internet connection"
+    ],
+    "troubleshooting": [
+      "The extension does not detect any media on the page. Make sure the video player has fully loaded and playback has started. Some stream URLs only appear after the player begins buffering.",
+      "The download starts but fails partway through. Check your internet connection and try again. If the issue persists, refresh the page and restart the video before attempting the download again.",
+      "No quality options appear. Some Sunporno videos may only expose a single stream option. The extension will present whatever quality information the page makes available.",
+      "The extension icon does not appear on Sunporno pages. Verify that the extension is properly installed and enabled in your browser. Try refreshing the Sunporno tab after installation.",
+      "Downloads are saving to the wrong folder. Check your browser download settings. The extension uses your browser default download location unless you specify otherwise."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Sunporno page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Video availability and quality options depend on what each Sunporno page exposes to the browser",
+      "The extension works with standard Sunporno video pages and may not support all page layouts or embedded players"
+    ],
+    "about": [
+      "Sunporno is an adult video platform that hosts user-uploaded and studio-produced content across numerous categories. This extension helps viewers save available video media directly from supported Sunporno pages without using external downloader tools."
+    ]
+  },
+  "serpx_link": "https://serpx.link/sunporno-downloader",
+  "github_topics": [
+    "sunporno-download",
+    "sunporno-downloader",
+    "sunporno-video-downloader",
+    "sunporno-video-downloader-online",
+    "sunporno-video-downloader-mac",
+    "sunporno-video-downloader-window",
+    "sunporno-video-downloader-free",
+    "sunporno-video-downloader-extension",
+    "sunporno-video-downloader-app",
+    "sunporno-video-downloader-chrome",
+    "sunporno-video-downloader-from-url",
+    "how-to-download-sunporno-videos",
+    "how-to-download-sunporno-videos-mac",
+    "how-to-download-sunporno-videos-windows",
+    "how-to-download-sunporno-videos-online",
+    "how-to-download-sunporno-videos-free",
+    "how-to-download-from-sunporno",
+    "how-to-download-videos-from-sunporno",
+    "download-sunporno-videos",
+    "sunporno-video-tutorial",
+    "save-sunporno-videos",
+    "sunporno-video-content-saver",
+    "how-to-download-sunporno-videos-for-free"
+  ],
+  "hashtags": [
+    "#SunpornoDownload",
+    "#SunpornoDownloader",
+    "#SunpornoVideoDownloader",
+    "#SunpornoVideoDownloaderOnline",
+    "#SunpornoVideoDownloaderMac",
+    "#SunpornoVideoDownloaderWindow",
+    "#SunpornoVideoDownloaderFree",
+    "#SunpornoVideoDownloaderExtension",
+    "#SunpornoVideoDownloaderApp",
+    "#SunpornoVideoDownloaderChrome",
+    "#SunpornoVideoDownloaderFromURL",
+    "#HowToDownloadSunpornoVideos",
+    "#HowToDownloadSunpornoVideosMac",
+    "#HowToDownloadSunpornoVideosWindows",
+    "#HowToDownloadSunpornoVideosOnline",
+    "#HowToDownloadSunpornoVideosFree",
+    "#HowToDownloadFromSunporno",
+    "#HowToDownloadVideosFromSunporno",
+    "#DownloadSunpornoVideos",
+    "#SunpornoVideoTutorial",
+    "#SaveSunpornoVideos",
+    "#SunpornoVideoContentSaver",
+    "#HowToDownloadSunpornoVideosForFree"
+  ],
+  "youtube_tags": [
+    "Sunporno Download",
+    "Sunporno Downloader",
+    "Sunporno Video Downloader",
+    "Sunporno Video Downloader Online",
+    "Sunporno Video Downloader Mac",
+    "Sunporno Video Downloader Window",
+    "Sunporno Video Downloader Free",
+    "Sunporno Video Downloader Extension",
+    "Sunporno Video Downloader App",
+    "Sunporno Video Downloader Chrome",
+    "Sunporno Video Downloader From URL",
+    "How To Download Sunporno Videos",
+    "How To Download Sunporno Videos Mac",
+    "How To Download Sunporno Videos Windows",
+    "How To Download Sunporno Videos Online",
+    "How To Download Sunporno Videos Free",
+    "How To Download From Sunporno",
+    "How To Download Videos From Sunporno",
+    "Download Sunporno Videos",
+    "Sunporno Video Tutorial",
+    "Save Sunporno Videos",
+    "Sunporno Video Content Saver",
+    "How To Download Sunporno Videos For Free"
+  ]
+}
